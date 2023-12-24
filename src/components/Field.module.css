@@ -1,0 +1,92 @@
+.mainContainer{
+    margin: .2em auto;    
+}
+
+.editor{
+    width: 600px;    
+}
+
+.previewer{
+    width: 900px;    
+}
+
+.header{   
+    border: 1px solid #333;
+    display: flex;      
+    background-color: #4aa3a3; 
+    padding: 0.4em;
+    box-shadow: 1px 1px 10px 2px #3a5f5f;
+    
+}
+
+.header svg:nth-of-type(1){    
+    margin-right: .5em;
+}
+
+.header svg:nth-of-type(2){    
+    margin-left: auto;
+    cursor: pointer;    
+}
+
+.header svg:nth-of-type(2):hover{    
+    color: #57e2b1;
+}
+
+.header span{
+    font-weight: bold;    
+}
+
+.mainContainer textarea{
+    width: 99.8%;
+    resize: vertical;
+    min-height: 200px;
+    background-color: #c0d8d8;
+    box-shadow: 1px 1px 10px 2px #3a5f5f;
+    margin-left: 0.4px;
+    padding: .1em;
+    outline: none;
+}
+
+.previewerContainer{
+    width: 99.9%;
+    resize: vertical;
+    min-height: 200px;
+    background-color: #c0d8d8;
+    box-shadow: 1px 1px 10px 2px #3a5f5f; 
+    overflow-wrap: break-word; 
+    padding: 0 1em;  
+    display: flex;  
+    flex-direction: column;
+}
+
+.previewerContainer *{    
+    width: fit-content;
+    padding-top: 0.8em;
+}
+
+
+.previewerContainer img{
+    max-width: 90%;
+}
+
+.previewerContainer th,td,tr{
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;      
+}
+
+.previewerContainer pre{
+    margin-top: 1em;
+    display: block;
+    overflow: auto;
+    background: white;
+    padding: 5px;
+    line-height: 1.2;
+    width: 100%;;
+}
+
+.previewSection{
+    margin: 0px 0px;
+    
+}
+
